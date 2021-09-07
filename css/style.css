@@ -1,0 +1,67 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html { 
+  background: url('background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width: 550px;
+  height: 450px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+body{
+  text-align: center;
+  color: white;
+  padding: 10px;
+  /* background-image: url('background.jpg'); */
+}
+
+
+
+img{
+width: 500px;
+height: 500px;
+display: block;
+margin: 2% auto;
+
+}
+
+.photo{
+  width: cover;
+  height: cover;
+  margin: 1% auto;
+}
+
+.description{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 3%;
+  padding: 1%;
+  font-size: 15px;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
